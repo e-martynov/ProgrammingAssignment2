@@ -1,5 +1,10 @@
 
 ## This function creates a "special" vector to save/retriev results of the the matrix inversion
+## usage:
+## invM is invertable matrix
+## m <- makeCacheMatrix(invM)
+## cacheSolve(m)
+
 
 makeCacheMatrix <- function(x = matrix()) {
   o <- x
